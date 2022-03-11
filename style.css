@@ -6,6 +6,7 @@ body{
 
 }
 .titleclass{
+    text-align: center;
     font-family: Arial, sans-serif;
     font-size: 3vmax;
     background-color: #1b726f;
