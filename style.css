@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(236, 253, 253);
+    color:black;
+    font: normal 16px 'Lato', sans-serif;
+    display: flex;
+
+}
+.titleclass{
+    font-family: Arial, sans-serif;
+    font-size: 3vmax;
+    background-color: #1b726f;
+    background-image: linear-gradient(90deg, #ce4851, #2AA5A0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: none;
+}
+.gameclass{
+    display:block;
+    box-sizing: border-box;
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+.textclass{
+   text-align: center;
+    
+}
+p{
+    font-size: 25px;
+    color:#25615f;
+}
+#myLabel{
+    font-style: italic;
+    color:#ce4851;
+}
+#guessField{
+    background-color: transparent;
+    border: 1px double rgb(1, 24, 1);
+}
+#submitButton{
+    font-size: 15px;
+    font-weight: 450;
+    color: rgb(1,24,1);
+    background-color: #2AA5A0;
+}
